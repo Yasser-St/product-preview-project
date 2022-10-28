@@ -1,0 +1,178 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+   background-color:hsl(30, 38%, 92%);
+   max-width: 1440px;
+   min-height: 100vh;
+   display:grid;
+   place-content: center;
+  
+}
+
+.container{
+    
+    max-width: 600px;
+    background-color:hsl(0, 0%, 100%);   
+    display: flex;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.img img{
+    height: 100%;
+    max-width:459px;
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+}
+.card{
+    margin: 30px 30px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(228, 12%, 48%);
+}
+.header{
+     
+    letter-spacing: 6px;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    line-height: 32px;
+    color:hsl(212, 21%, 14%);
+    padding-bottom: 24px;
+}
+
+.pragraphe{
+   line-height: 23px; 
+   width: 200px;
+   padding-bottom: 26px;
+}
+
+.price{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    padding-bottom: 33px;
+}
+
+.reguler-price{
+    text-decoration: line-through;
+}
+
+h1{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
+ .button{
+    
+
+ }
+
+.cart-icon{
+    position: relative;
+    top: 3px;
+    right:7px;
+}
+
+button{
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    transition: background-color .3s ease;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(157, 33%, 22%);
+}
+
+.attribution { 
+    font-size: 13px; 
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif ;
+    padding-top: 21px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:40em){
+    
+    body{
+        background-color:hsl(30, 38%, 92%);
+        min-width: 340px;
+        min-height: 100vh;
+        overflow: hidden;
+        display:grid;
+        place-content: center;
+       
+     }
+     .container{
+        max-width :340px;
+        margin: auto;
+        background-color:hsl(0, 0%, 100%);   
+        display:grid;
+        border-radius: 10px;
+        margin-top: px;
+    }
+    .img img{
+        max-height:200px;
+        width:100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card{
+        margin: 25px 25px;
+    }
+
+    .pragraphe{
+        line-height: px; 
+        width: 100%;
+        padding-bottom: 20px;
+     }
+     h2{
+        font-family: 'Fraunces', serif;
+        font-size:29px;
+        line-height: 32px;
+        color:hsl(212, 21%, 14%);
+        padding-bottom: 20px;
+    }
+    .header{
+     
+        letter-spacing: 6px;
+        padding-bottom: 10px;
+    }
+
+ 
+}
